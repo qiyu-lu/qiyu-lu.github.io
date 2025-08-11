@@ -59,7 +59,8 @@ plugins:
 
 author:
   name   : "qiyu-lu"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile.png"
+  # "/assets/images/bio-photo.jpg"
   bio    : "个人记录"
   links:
     - label: "Website"
