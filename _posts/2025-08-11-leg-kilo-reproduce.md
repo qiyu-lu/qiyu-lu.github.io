@@ -4,6 +4,7 @@ date: 2025-08-11
 categories: [SLAM算法复现]
 tags: [Leg-KILO, Ubuntu, OpenCV, ROS]
 ---
+- 腿部里程计slam
 
 ## 1. 项目基本信息
 
