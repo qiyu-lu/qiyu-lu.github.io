@@ -24,6 +24,8 @@ github_username: username
 minimal_mistakes_skin: dark #default
 search: true
 
+mathjax: true
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
