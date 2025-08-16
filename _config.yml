@@ -98,6 +98,8 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
+      toc_sticky: true   # ✅ 所有文章右侧固定目录
       author_profile: true
       read_time: true
       comments: true
