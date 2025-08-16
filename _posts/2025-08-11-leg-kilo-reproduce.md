@@ -12,6 +12,7 @@ tags: [Leg-KILO, Ubuntu, OpenCV, ROS]
 - **ROS 版本**：Noetic  
 - **项目地址**：[https://github.com/ouguangjun/Leg-KILO](https://github.com/ouguangjun/Leg-KILO)  
 - **主要问题**：opencv 版本不兼容
+- 这是我的复现过程记录，并非教程，因此会有一些不必要的操作
 
 ---
 
