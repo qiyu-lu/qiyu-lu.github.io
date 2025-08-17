@@ -2,7 +2,7 @@
 title: "SLAM 算法复现记录：DiSCo-SLAM"
 date: 2025-08-16
 categories: [SLAM算法复现]
-tags: [DiSCo-SLAM, Ubuntu, ROS]
+tags: [SLAM, DiSCo-SLAM, Ubuntu, ROS]
 ---
 
 DiSCo-SLAM：一个分布式的多机SLAM

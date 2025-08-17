@@ -2,7 +2,7 @@
 title: "SLAM 算法复现记录：FAST_LIO_SAM"
 date: 2025-08-16
 categories: [SLAM算法复现]
-tags: [FAST_LIO_SAM, Ubuntu, ROS]
+tags: [SLAM, FAST_LIO_SAM, Ubuntu, ROS]
 ---
 
 FAST_LIO_SAM：在FAST-LIO2的基础上，添加SC-PGO模块

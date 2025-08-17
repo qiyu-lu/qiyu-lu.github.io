@@ -2,7 +2,7 @@
 title: "SLAM 算法复现记录：Leg-KILO"
 date: 2025-08-11 
 categories: [SLAM算法复现]
-tags: [Leg-KILO, Ubuntu, OpenCV, ROS]
+tags: [SLAM, Leg-KILO, Ubuntu, OpenCV, ROS]
 ---
 - 腿部里程计slam
 
