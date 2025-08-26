@@ -1,0 +1,9 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/mint"; // 你现在用的皮肤（mint），可以换成 default, dark 等
+@import "minimal-mistakes";            // 引入主题
+@import "custom/custom";               // ✅ 引入自定义样式（下一步要新建）
+
+

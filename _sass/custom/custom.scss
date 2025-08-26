@@ -1,0 +1,47 @@
+/* 行内代码 */
+code {
+    background: #fdf6e3;         /* 柔和米黄色 */
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #d14;                 /* 深红色 */
+    font-family: "Fira Code", "JetBrains Mono", monospace;
+    font-size: 0.95em;
+  }
+  
+//   /* 代码块 */
+// /* 通用代码块样式 */
+// pre {
+//     background: #282c34;      /* 统一改为 VSCode-like 深色背景 */
+//     color: #abb2bf;           /* 默认字体颜色 */
+//     padding: 1rem 1.2rem;
+//     border-radius: 8px;
+//     font-family: "Fira Code", "JetBrains Mono", monospace;
+//     font-size: 0.95em;
+//     line-height: 1.5;
+//     overflow-x: auto;
+//   }
+  
+//   /* 覆盖 Rouge/pygments 语法高亮 */
+//   .highlight .c { color: #5c6370; font-style: italic } /* 注释 */
+//   .highlight .err { color: #960050; background-color: #1e0010 } /* 错误 */
+//   .highlight .k { color: #c678dd } /* 关键字 */
+//   .highlight .o { color: #56b6c2 } /* 操作符 */
+//   .highlight .cm { color: #5c6370; font-style: italic } /* 多行注释 */
+//   .highlight .cp { color: #56b6c2 } /* 预处理 */
+//   .highlight .nt { color: #e06c75 } /* HTML 标签名 */
+//   .highlight .nv { color: #e5c07b } /* 变量名 */
+//   .highlight .s { color: #98c379 } /* 字符串 */
+//   .highlight .nb { color: #61afef } /* 内置函数/命令 (sudo 就会变蓝) */
+//   .highlight .nf { color: #61afef } /* 函数名 */
+//   .highlight .m { color: #d19a66 } /* 数字 */
+  
+  
+  /* 避免代码块里嵌套 code 重复背景 */
+  pre code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+  }
+  
