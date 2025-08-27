@@ -1,21 +1,33 @@
-/* 行内代码 */
-code {
-    background: #fdf6e3;         /* 柔和米黄色 */
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-weight: 600;
-    color: #d14;                 /* 深红色 */
-    font-family: "Fira Code", "JetBrains Mono", monospace;
-    font-size: 0.95em;
-  }
-  
-  /* 避免代码块里嵌套 code 重复背景 */
-  pre code {
-    background: transparent;
-    padding: 0;
-    color: inherit;
-    font-size: inherit;
-  }
+/* 行内代码 */ code { 
+  background: #fdf6e3; /* 柔和米黄色 */ 
+  padding: 2px 6px; 
+  border-radius: 4px; 
+  font-weight: 600; 
+  color: #d14; /* 深红色 */ 
+  font-family: "Fira Code", "JetBrains Mono", monospace; 
+  font-size: 0.95em; 
+}
+
+/* 代码块整体样式 */
+pre {
+  background: #2d2d2d;      /* 背景色 */
+  color: #f8f8f2;           /* 默认字体颜色 */
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95em;
+  line-height: 1.5;
+  overflow-x: auto;         /* ✅ 超出时横向滚动 */
+  white-space: pre;         /* 保持原有缩进，不自动换行 */
+}
+
+/* 确保代码在代码块内正常显示 */
+pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
   
 /* 分类折叠样式 */
 .entries-list.collapsed {
