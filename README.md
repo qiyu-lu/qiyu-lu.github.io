@@ -1,27 +1,27 @@
-# Minimal Mistakes remote theme starter
+# qiyu-lu.github.io
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+个人技术博客：SLAM 算法复现 · Java 后端 · 算法刷题。
+基于 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题，通过 GitHub Actions 部署到 GitHub Pages。
 
-Contains basic configuration to get you a site with:
+## 本地预览
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+```bash
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec jekyll serve   # http://127.0.0.1:4000
+```
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 写文章
 
+在 `_posts/<分类>/` 下新建 `YYYY-MM-DD-标题.md`：
+
+```yaml
 ---
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+title: "文章标题"
+date: 2026-10-04
+categories: [SLAM]        # 最多两级，如 [Algorithms, 双指针]
+tags: [LIO-SAM, SLAM算法复现]
+math: true                # 需要公式时打开
+pin: true                 # 置顶到首页（可选）
+---
+```

@@ -1,7 +1,7 @@
 ---
 title: "力扣热题100刷题-twoPointers-42-接雨水"
 date: 2026-3-20
-categories: [Algorithms]
+categories: [Algorithms, 双指针]
 tags: [Algorithms, LeetCode]
 ---
 

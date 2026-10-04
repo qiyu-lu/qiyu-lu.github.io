@@ -1,7 +1,7 @@
 ---
 title: "力扣热题100刷题-subString-560-和为 K 的子数组"
 date: 2026-3-20
-categories: [Algorithms]
+categories: [Algorithms, 子串]
 tags: [Algorithms, LeetCode]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "力扣热题100刷题-hash-49-字母异位词分组"
 date: 2026-3-20
-categories: [Algorithms]
+categories: [Algorithms, 哈希]
 tags: [Algorithms, LeetCode]
 ---
 

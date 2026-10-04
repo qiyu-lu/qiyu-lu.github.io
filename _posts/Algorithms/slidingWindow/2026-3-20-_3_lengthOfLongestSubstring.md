@@ -1,7 +1,7 @@
 ---
 title: "力扣热题100刷题-slidingWindow-3-无重复字符的最长子串"
 date: 2026-3-20
-categories: [Algorithms]
+categories: [Algorithms, 滑动窗口]
 tags: [Algorithms, LeetCode]
 ---
 
