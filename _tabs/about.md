@@ -10,7 +10,7 @@ order: 5
 
 关注激光雷达 / IMU 融合的里程计与建图，以及多机器人协同 SLAM。
 博客里大部分 SLAM 文章是开源算法的**复现记录**：环境配置、编译踩坑、数据集运行与结果，
-也有少量论文与源码的阅读梳理。
+也有少量论文与源码的阅读梳理。此外按技术路线整理了几篇**论文综述**：腿足机器人 LIO、连续时间激光里程计、退化与不确定性、VoxelMap 体素地图家族。
 
 - **单机 LIO / LO**：LIO-SAM、FAST-LIO-SAM、FAST-LIVO2、CT-ICP、CT-LIO、Adaptive-LIO、Traj-LO
 - **多机协同**：Swarm-LIO2、DCL-SLAM、Co-LRIO、DiSCo-SLAM、MR-SLAM

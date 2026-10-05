@@ -6,9 +6,18 @@ order: 1
 
 按主题整理的系列文章，适合按顺序阅读。
 
-{% assign slam = site.categories['SLAM'] | where_exp: 'p', 'p.hidden != true' | sort: 'date' %}
+{% assign slam = site.categories['SLAM'] | where_exp: 'p', 'p.hidden != true' | where_exp: 'p', 'p.categories[1] != "论文综述"' | sort: 'date' %}
+{% assign surveys = site.categories['论文综述'] | sort: 'title' %}
 {% assign java = site.categories['Java'] | sort: 'date' %}
 {% assign algo = site.categories['Algorithms'] | sort: 'title' %}
+
+## SLAM 论文综述
+
+按技术路线整理的激光 / 惯性 / 腿足里程计论文精读综述。共 {{ surveys.size }} 篇。
+
+{% for p in surveys %}
+- [{{ p.title | remove: '论文综述：' }}]({{ p.url | relative_url }})
+{% endfor %}
 
 ## SLAM 算法复现与阅读
 
